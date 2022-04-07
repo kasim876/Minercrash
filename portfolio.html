@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Createx Construction</title>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/vendor.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+
+<body id="top" class="page__body">
+    <div class="site-container">
+        <header class="header header--page">
+    <div class="container header-container">
+        <a href="index.html" class="header__logo">
+            <img src="../img/svg/logo.svg" alt="Createx Logo">
+        </a>
+        <nav class="nav header-nav">
+            <ul class="header__nav-list list-reset" type="none">
+                <li class="header__nav-item">
+                    <a href="about.html" class="header__nav-link">About Us</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="services.html" class="header__nav-link">Services</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="portfolio.html" class="header__nav-link header__nav-link--active">Work</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="news.html" class="header__nav-link">News</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="contacts.html" class="header__nav-link">Contacts</a>
+                </li>
+            </ul>
+            <ul class="header-contact header-contact--nav list-reset" type="none">
+                <li class="header-contact__item">
+                    <a href="tel:4055550128" class="header-contact__link header-contact__link--phone">
+                        <span class="header-contact__descr">Call us</span>
+                        <span class="header-contact__value">(405) 555-0128</span>
+                    </a>
+                </li>
+                <li class="header-contact__item">
+                    <a href="mailto:hello@createx.com" class="header-contact__link header-contact__link--mail">
+                        <span class="header-contact__descr">Talk to us</span>
+                        <span class="header-contact__value">hello@createx.com</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <ul class="header-contact list-reset" type="none">
+            <li class="header-contact__item">
+                <a href="tel:4055550128" class="header-contact__link header-contact__link--phone">
+                    <span class="header-contact__descr">Call us</span>
+                    <span class="header-contact__value">(405) 555-0128</span>
+                </a>
+            </li>
+            <li class="header-contact__item">
+                <a href="mailto:hello@createx.com" class="header-contact__link header-contact__link--mail">
+                    <span class="header-contact__descr">Talk to us</span>
+                    <span class="header-contact__value">hello@createx.com</span>
+                </a>
+            </li>
+        </ul>
+        <button class="btn-reset burger" aria-label="Открыть меню">
+            <span class="burger__line"></span>
+        </button>
+    </div>
+</header>
+        <main>
+      <section class="hero hero--secondary hero-portfolio">
+    <div class="container">
+        <ul class="hero--secondary__nav hero-nav list-reset">
+            <li class="hero-nav__item">
+                <a href="index.html" class="hero-nav__link">
+                    Homepage
+                </a>
+            </li>
+            <li class="hero-nav__item">
+                <a class="hero-nav__link">
+                    Work
+                </a>
+            </li>
+        </ul>
+        <h2 class="hero--secondary__title">Our Work</h2>
+        <article class="hero--secondary__article">
+            Our portfolio represents 20 years of construction experience backed by a passion for perfect client service, quality and innovations in consctuction industry.
+        </article>
+    </div>
+</section>
+      <section class="portfolio">
+    <div class="container">
+        <div class="tabs">
+            <ul class="portfolio-tabs-nav list-reset">
+                <li class="portfolio-tabs-nav__item">
+                    <button class="portfolio-tabs-nav__btn portfolio-tabs-nav__btn--active" data-path="all">
+                        <svg class="portfolio-tabs-nav__ico">
+                            <use xlink:href="img/sprite.svg#house"></use>
+                        </svg>
+                        <span class="portfolio-tabs-nav__caption">All Projects</span>
+                    </button>
+                </li>
+                <li class="portfolio-tabs-nav__item">
+                    <button class="portfolio-tabs-nav__btn" data-path="constr">
+                        <svg class="portfolio-tabs-nav__ico">
+                            <use xlink:href="img/sprite.svg#construction"></use>
+                        </svg>
+                        <span class="portfolio-tabs-nav__caption">Construction</span>
+                    </button>
+                </li>
+                <li class="portfolio-tabs-nav__item">
+                    <button class="portfolio-tabs-nav__btn" data-path="develop">
+                        <svg class="portfolio-tabs-nav__ico">
+                            <use xlink:href="img/sprite.svg#project-development"></use>
+                        </svg>
+                        <span class="portfolio-tabs-nav__caption">Project Development</span>
+                    </button>
+                </li>
+                <li class="portfolio-tabs-nav__item">
+                    <button class="portfolio-tabs-nav__btn" data-path="inter">
+                        <svg class="portfolio-tabs-nav__ico">
+                            <use xlink:href="img/sprite.svg#interior-design"></use>
+                        </svg>
+                        <span class="portfolio-tabs-nav__caption">Interior Design</span>
+                    </button>
+                </li>
+                <li class="portfolio-tabs-nav__item">
+                    <button class="portfolio-tabs-nav__btn" data-path="repairs">
+                        <svg class="portfolio-tabs-nav__ico">
+                            <use xlink:href="img/sprite.svg#repairs"></use>
+                        </svg>
+                        <span class="portfolio-tabs-nav__caption">Repairs</span>
+                    </button>
+                </li>
+            </ul>
+            <ul class="portfolio-tabs list-reset">
+                <li class="portfolio-tabs__item" data-target="inter">
+                    <a href="#" class="portfolio-item">
+                        <img src="../img/image-portfolio1.jpg" alt class="portfolio-item__img">
+                        <div class="portfolio-item__content">
+                            <h3 class="portfolio-item__title">Red Finger Building</h3>
+                            <span class="portfolio-item__descr">Business Centers</span>
+                            <div class="btn-basic--transparent portfolio-item__btn">View Project</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-tabs__item" data-target="inter">
+                    <a href="#" class="portfolio-item">
+                        <img src="../img/image-portfolio1.jpg" alt class="portfolio-item__img">
+                        <div class="portfolio-item__content">
+                            <h3 class="portfolio-item__title">Red Finger Building</h3>
+                            <span class="portfolio-item__descr">Business Centers</span>
+                            <div class="btn-basic--transparent portfolio-item__btn">View Project</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-tabs__item" data-target="inter">
+                    <a href="#" class="portfolio-item">
+                        <img src="../img/image-portfolio1.jpg" alt class="portfolio-item__img">
+                        <div class="portfolio-item__content">
+                            <h3 class="portfolio-item__title">Red Finger Building</h3>
+                            <span class="portfolio-item__descr">Business Centers</span>
+                            <div class="btn-basic--transparent portfolio-item__btn">View Project</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-tabs__item" data-target="inter">
+                    <a href="#" class="portfolio-item">
+                        <img src="../img/image-portfolio1.jpg" alt class="portfolio-item__img">
+                        <div class="portfolio-item__content">
+                            <h3 class="portfolio-item__title">Red Finger Building</h3>
+                            <span class="portfolio-item__descr">Business Centers</span>
+                            <div class="btn-basic--transparent portfolio-item__btn">View Project</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-tabs__item" data-target="develop">
+                    <a href="#" class="portfolio-item">
+                        <img src="../img/image-portfolio1.jpg" alt class="portfolio-item__img">
+                        <div class="portfolio-item__content">
+                            <h3 class="portfolio-item__title">Red Finger Building</h3>
+                            <span class="portfolio-item__descr">Business Centers</span>
+                            <div class="btn-basic--transparent portfolio-item__btn">View Project</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-tabs__item" data-target="develop">
+                    <a href="#" class="portfolio-item">
+                        <img src="../img/image-portfolio1.jpg" alt class="portfolio-item__img">
+                        <div class="portfolio-item__content">
+                            <h3 class="portfolio-item__title">Red Finger Building</h3>
+                            <span class="portfolio-item__descr">Business Centers</span>
+                            <div class="btn-basic--transparent portfolio-item__btn">View Project</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-tabs__item" data-target="develop">
+                    <a href="#" class="portfolio-item">
+                        <img src="../img/image-portfolio1.jpg" alt class="portfolio-item__img">
+                        <div class="portfolio-item__content">
+                            <h3 class="portfolio-item__title">Red Finger Building</h3>
+                            <span class="portfolio-item__descr">Business Centers</span>
+                            <div class="btn-basic--transparent portfolio-item__btn">View Project</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-tabs__item" data-target="develop">
+                    <a href="#" class="portfolio-item">
+                        <img src="../img/image-portfolio1.jpg" alt class="portfolio-item__img">
+                        <div class="portfolio-item__content">
+                            <h3 class="portfolio-item__title">Red Finger Building</h3>
+                            <span class="portfolio-item__descr">Business Centers</span>
+                            <div class="btn-basic--transparent portfolio-item__btn">View Project</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-tabs__item" data-target="develop">
+                    <a href="#" class="portfolio-item">
+                        <img src="../img/image-portfolio1.jpg" alt class="portfolio-item__img">
+                        <div class="portfolio-item__content">
+                            <h3 class="portfolio-item__title">Red Finger Building</h3>
+                            <span class="portfolio-item__descr">Business Centers</span>
+                            <div class="btn-basic--transparent portfolio-item__btn">View Project</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-tabs__item" data-target="develop">
+                    <a href="#" class="portfolio-item">
+                        <img src="../img/image-portfolio1.jpg" alt class="portfolio-item__img">
+                        <div class="portfolio-item__content">
+                            <h3 class="portfolio-item__title">Red Finger Building</h3>
+                            <span class="portfolio-item__descr">Business Centers</span>
+                            <div class="btn-basic--transparent portfolio-item__btn">View Project</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-tabs__item" data-target="develop">
+                    <a href="#" class="portfolio-item">
+                        <img src="../img/image-portfolio1.jpg" alt class="portfolio-item__img">
+                        <div class="portfolio-item__content">
+                            <h3 class="portfolio-item__title">Red Finger Building</h3>
+                            <span class="portfolio-item__descr">Business Centers</span>
+                            <div class="btn-basic--transparent portfolio-item__btn">View Project</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-tabs__item" data-target="develop">
+                    <a href="#" class="portfolio-item">
+                        <img src="../img/image-portfolio1.jpg" alt class="portfolio-item__img">
+                        <div class="portfolio-item__content">
+                            <h3 class="portfolio-item__title">Red Finger Building</h3>
+                            <span class="portfolio-item__descr">Business Centers</span>
+                            <div class="btn-basic--transparent portfolio-item__btn">View Project</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-tabs__item" data-target="develop">
+                    <a href="#" class="portfolio-item">
+                        <img src="../img/image-portfolio1.jpg" alt class="portfolio-item__img">
+                        <div class="portfolio-item__content">
+                            <h3 class="portfolio-item__title">Red Finger Building</h3>
+                            <span class="portfolio-item__descr">Business Centers</span>
+                            <div class="btn-basic--transparent portfolio-item__btn">View Project</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-tabs__item" data-target="develop">
+                    <a href="#" class="portfolio-item">
+                        <img src="../img/image-portfolio1.jpg" alt class="portfolio-item__img">
+                        <div class="portfolio-item__content">
+                            <h3 class="portfolio-item__title">Red Finger Building</h3>
+                            <span class="portfolio-item__descr">Business Centers</span>
+                            <div class="btn-basic--transparent portfolio-item__btn">View Project</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-tabs__item" data-target="develop">
+                    <a href="#" class="portfolio-item">
+                        <img src="../img/image-portfolio1.jpg" alt class="portfolio-item__img">
+                        <div class="portfolio-item__content">
+                            <h3 class="portfolio-item__title">Red Finger Building</h3>
+                            <span class="portfolio-item__descr">Business Centers</span>
+                            <div class="btn-basic--transparent portfolio-item__btn">View Project</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-tabs__item" data-target="develop">
+                    <a href="#" class="portfolio-item">
+                        <img src="../img/image-portfolio1.jpg" alt class="portfolio-item__img">
+                        <div class="portfolio-item__content">
+                            <h3 class="portfolio-item__title">Red Finger Building</h3>
+                            <span class="portfolio-item__descr">Business Centers</span>
+                            <div class="btn-basic--transparent portfolio-item__btn">View Project</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-tabs__item" data-target="repairs">
+                    <a href="#" class="portfolio-item">
+                        <img src="../img/image-portfolio1.jpg" alt class="portfolio-item__img">
+                        <div class="portfolio-item__content">
+                            <h3 class="portfolio-item__title">Red Finger Building</h3>
+                            <span class="portfolio-item__descr">Business Centers</span>
+                            <div class="btn-basic--transparent portfolio-item__btn">View Project</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-tabs__item" data-target="repairs">
+                    <a href="#" class="portfolio-item">
+                        <img src="../img/image-portfolio1.jpg" alt class="portfolio-item__img">
+                        <div class="portfolio-item__content">
+                            <h3 class="portfolio-item__title">Red Finger Building</h3>
+                            <span class="portfolio-item__descr">Business Centers</span>
+                            <div class="btn-basic--transparent portfolio-item__btn">View Project</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-tabs__item" data-target="constr">
+                    <a href="#" class="portfolio-item">
+                        <img src="../img/image-portfolio1.jpg" alt class="portfolio-item__img">
+                        <div class="portfolio-item__content">
+                            <h3 class="portfolio-item__title">Red Finger Building</h3>
+                            <span class="portfolio-item__descr">Business Centers</span>
+                            <div class="btn-basic--transparent portfolio-item__btn">View Project</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-tabs__item" data-target="constr">
+                    <a href="#" class="portfolio-item">
+                        <img src="../img/image-portfolio1.jpg" alt class="portfolio-item__img">
+                        <div class="portfolio-item__content">
+                            <h3 class="portfolio-item__title">Red Finger Building</h3>
+                            <span class="portfolio-item__descr">Business Centers</span>
+                            <div class="btn-basic--transparent portfolio-item__btn">View Project</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-tabs__item" data-target="constr">
+                    <a href="#" class="portfolio-item">
+                        <img src="../img/image-portfolio1.jpg" alt class="portfolio-item__img">
+                        <div class="portfolio-item__content">
+                            <h3 class="portfolio-item__title">Red Finger Building</h3>
+                            <span class="portfolio-item__descr">Business Centers</span>
+                            <div class="btn-basic--transparent portfolio-item__btn">View Project</div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <button class="load-more">
+                <svg class="load-more__icon">
+                    <use xlink:href="img/sprite.svg#load-more"></use>
+                </svg>
+                <span class="load-more__caption">Load more</span>
+            </button>
+        </div>
+    </div>
+
+</section>
+      <section class="reviews">
+    <div class="container reviews-container">
+        <div class="reviews__content">
+            <h2 class="title reviews__title">What our clients are saying</h2>
+            <div class="swiper reviews__swiper swiper-no-swiping">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/tim-cook.png" alt="Avatar people" class="reviews__avatar">
+                        <p class="reviews__descr">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <span class="reviews__autor">Tim Cook</span>
+                        <span class="reviews__position">CEO Apple Inc.</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/elon-musk.png" alt="Avatar people" class="reviews__avatar">
+                        <p class="reviews__descr">
+                            Ipsum aute sunt aliquip aute et occaecat. Anim minim do cillum eiusmod enim. Consectetur magna cillum consequat minim  laboris cillum laboris voluptate minim proident exercitation ullamco.
+                        </p>
+                        <span class="reviews__autor">Elon Musk</span>
+                        <span class="reviews__position">CEO Tesla Inc.</span>
+                    </div>
+                </div>
+                <div class="reviews__arrows">
+                    <button class="reviews__arrow reviews-button--prev">
+                        <svg class="reviews__arrow-ico">
+                            <use xlink:href="img/sprite.svg#arrow-left">
+                        </svg>
+                    </button>
+                    <button class="reviews__arrow reviews-button--next">
+                        <svg class="reviews__arrow-ico">
+                            <use xlink:href="img/sprite.svg#arrow-right">
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <img src="img/reviews.jpg" alt="Man" class="reviews__img">
+    </div>
+</section>
+      <section class="portfolio-partners">
+    <div class="container">
+        <h2 class="title title--center partners__title">Our clients</h2>
+        <ul class="partners__list list-reset">
+            <li class="partners__item">
+                <a href="#" class="partners__link">
+                    <img src="img/svg/partner1.svg" alt="">
+                </a>
+            </li>
+            <li class="partners__item">
+                <a href="#" class="partners__link">
+                    <img src="img/svg/partner2.svg" alt="">
+                </a>
+            </li>
+            <li class="partners__item">
+                <a href="#" class="partners__link">
+                    <img src="img/svg/partner3.svg" alt="">
+                </a>
+            </li>
+            <li class="partners__item">
+                <a href="#" class="partners__link">
+                    <img src="img/svg/partner4.svg" alt="">
+                </a>
+            </li>
+            <li class="partners__item">
+                <a href="#" class="partners__link">
+                    <img src="img/svg/partner5.svg" alt="">
+                </a>
+            </li>
+            <li class="partners__item">
+                <a href="#" class="partners__link">
+                    <img src="img/svg/partner6.svg" alt="">
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+            <section class="contacts-section" id="contacts">
+    <div class="container">
+        <h2 class="visually-hidden">Contacts</h2>
+        <form action="#" class="contacts-section__form">
+            <h3 class="contacts-section__title">A quick way to discuss details</h3>
+            <label class="contacts-section__label">
+                <span class="contacts-section__designation">Name*</span>
+                <input type="text" name="name" class="input contacts-section__input" placeholder=" Your name" required>
+            </label>
+            <label class="contacts-section__label">
+                <span class="contacts-section__designation">Phone*</span>
+                <input type="tel" name="tel" class="input contacts-section__input" placeholder=" Your phone number" required>
+            </label>
+            <label class="contacts-section__label">
+                <span class="contacts-section__designation">Email</span>
+                <input type="email" name="email" class="input contacts-section__input" placeholder=" Your working email">
+            </label>
+            <label class="contacts-section__label">
+                <span class="contacts-section__designation">Message*</span>
+                <textarea type="text" name="message" class="textarea contacts-section__textarea" placeholder=" Your message" required></textarea>
+            </label>
+            <label class="custom-checkbox">
+                <input class="custom-checkbox__input" type="checkbox" required>
+                <span class="custom-checkbox__text">I agree to receive communications from Createx Construction Bureau.</span>
+            </label>
+            <button class="btn-basic--primary contacts-section__btn">Send Request</button>
+        </form>
+    </div>
+</section>
+        </main>
+        <footer class="footer">
+    <div class="container footer-container">
+        <div class="footer__left">
+            <div class="footer__top">
+                <a href="index.html">
+                <img src="../img/svg/footer-logo.svg" alt="Logo" class="footer__logo">
+                </a>
+                <ul class="footer__social list-reset social">
+                    <li class="social__item">
+                        <a href="" class="social__link">
+                            <svg class="social__ico">
+                                <use xlink:href="img/sprite.svg#whatsapp"></use>
+                              </svg>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="" class="social__link">
+                            <svg class="social__ico">
+                                <use xlink:href="img/sprite.svg#messanger"></use>
+                              </svg>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="" class="social__link">
+                            <svg class="social__ico">
+                                <use xlink:href="img/sprite.svg#facebook"></use>
+                              </svg>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="" class="social__link">
+                            <svg class="social__ico">
+                                <use xlink:href="img/sprite.svg#twitter"></use>
+                              </svg>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="" class="social__link">
+                            <svg class="social__ico">
+                              <use xlink:href="img/sprite.svg#youtube"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p class="footer__descr">
+                Createx Construction Bureau has been successfully operating in the USA construction market since 2000. We are proud to offer you quality construction and exemplary service. Our mission is to set the highest standards for construction sphere.
+            </p>
+        </div>
+        <form class="footer__form footer-form">
+            <h3 class="footer__title">Let’s stay in touch</h3>
+            <div action="#" class="footer-form__items">
+                <input type="email" name="email" class="input footer__input" placeholder="Your email address" required>
+                <button class="footer__btn btn-basic--primary" type="submit">subscribe</button>
+            </div>
+            <p class="footer-form__descr">
+                *Subscribe to our newsletter to receive communications and early updates from Createx Construction Bureau.
+            </p>
+        </form>
+        <div class="footer__contacts footer-contacts">
+            <h4 class="footer__subtitle">head office</h4>
+            <ul class="footer__list footer-list list-reset">
+                <li class="footer-list__item">
+                    <span class="footer-contacts__name">Address:</span> 8502 Preston Rd. Inglewood, New York
+                </li>
+                <li class="footer-list__item">
+                    <span class="footer-contacts__name">Call:</span>
+                    <a href="tel:4055550128"> (405) 555-0128</a>
+                </li>
+                <li class="footer-list__item">
+                    <span class="footer-contacts__name">Email:</span>
+                    <a href="mailto:hello@createx.com"> hello@vreatex.com</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__nav footer-nav">
+            <div class="footer-nav__col">
+                <h4 class="footer__subtitle">who we are</h4>
+                <ul class="footer__list footer-list list-reset">
+                    <li class="footer-list__item">
+                        <a href="about.html">
+                            About Us
+                        </a>
+                    </li>
+                    <li class="footer-list__item">
+                        <a href="#">
+                            Avaiable Positions
+                        </a>
+                    </li>
+                    <li class="footer-list__item">
+                        <a href="contacts.html">
+                            Contacts
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-nav__col">
+                <h4 class="footer__subtitle">our experience</h4>
+                <ul class="footer__list footer-list list-reset">
+                    <li class="footer-list__item">
+                        <a href="services.html">
+                            Services
+                        </a>
+
+                    </li>
+                    <li class="footer-list__item">
+                        <a href="portfolio.html">
+                            Work
+                        </a>
+                    </li>
+                    <li class="footer-list__item">
+                        <a href="news.html">
+                            News
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <a href="#top" data-scroll class="to-top">
+            <span>go to top</span>
+            <div class="to-top__btn">
+                <svg class="to-top__ico">
+                  <use xlink:href="img/sprite.svg#arrow-left"></use>
+                </svg>
+            </div>
+        </a>
+
+    </div>
+</footer>
+
+        <div class="overlay"></div>
+    </div>
+</body>
+
+</html>
